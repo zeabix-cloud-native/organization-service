@@ -4,7 +4,7 @@ on:
   workflow_dispatch: #<--- Run the workflow manually
   push:
     branches:
-      - main-x       #<---- Edit when you want to test
+      - main      #<---- Edit when you want to test
 
 permissions:
       id-token: write
